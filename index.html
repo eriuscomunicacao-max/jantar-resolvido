@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Teste: por que a janta virou um problema na sua casa?</title>
+<meta name="description" content="Responda 6 perguntas rápidas e descubra o seu perfil de jantar e como deixar a semana resolvida no domingo.">
+<meta property="og:title" content="Por que a janta virou um problema na sua casa?">
+<meta property="og:description" content="Teste de 1 minuto + plano para resolver os jantares da semana.">
+<meta property="og:image" content="img/resultado.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,800;9..144,900&family=Inter:wght@400;500;600;700;800&family=Caveat:wght@700&display=swap" rel="stylesheet">
+
+<!-- Meta Pixel -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','2196104277799468');fbq('track','PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2196104277799468&ev=PageView&noscript=1"/></noscript>
+
+<style>
+:root{--oliva:#2F4A3A;--tomate:#E2553F;--creme:#FFF6E9;--mostarda:#F2B33D;--salvia:#DCE6D5;--grafite:#1F2421;--cinza:#5C625C}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--creme);color:var(--grafite);font-family:Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:520px;margin:0 auto;min-height:100vh;padding:16px 16px 40px}
+.f{font-family:Fraunces,Georgia,serif;font-weight:900}
+.hand{font-family:Caveat,cursive;color:var(--tomate)}
+.screen{display:none;animation:in .35s ease}
+.screen.on{display:block}
+@keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.brand{display:flex;align-items:center;justify-content:center;gap:8px;font-weight:800;color:var(--oliva);font-size:15px;letter-spacing:.3px;margin:4px 0 14px}
+.brand i{width:22px;height:22px;border-radius:50%;background:var(--creme);border:4px solid var(--tomate);display:inline-block}
+.photo{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:18px;display:block;background:var(--salvia)}
+h1{font-size:31px;line-height:1.08;color:var(--oliva);margin:18px 0 10px}
+h2{font-size:25px;line-height:1.12;color:var(--oliva);margin:16px 0 14px}
+p.lead{font-size:17px;line-height:1.45;color:var(--grafite)}
+.btn{display:block;width:100%;border:0;border-radius:14px;background:var(--tomate);color:#fff;font:800 18px Inter,sans-serif;padding:18px 16px;margin-top:20px;cursor:pointer;text-align:center;text-decoration:none;box-shadow:0 6px 0 #b8402e}
+.btn:active{transform:translateY(3px);box-shadow:0 3px 0 #b8402e}
+.small{font-size:13px;color:var(--cinza);text-align:center;margin-top:10px}
+.bar{height:8px;background:var(--salvia);border-radius:8px;overflow:hidden;margin:2px 0 14px}
+.bar b{display:block;height:100%;width:0;background:var(--oliva);transition:width .35s}
+.step{font-size:13px;font-weight:700;color:var(--cinza);margin-bottom:6px}
+.opt{display:flex;align-items:center;gap:12px;width:100%;text-align:left;background:#fff;border:2px solid #eadfcb;border-radius:14px;padding:15px 14px;margin:10px 0;font:600 16px Inter,sans-serif;color:var(--grafite);cursor:pointer}
+.opt:hover{border-color:var(--oliva)}
+.opt.sel{border-color:var(--oliva);background:var(--salvia)}
+.opt span.e{font-size:22px;width:28px;text-align:center}
+.load{text-align:center;padding-top:60px}
+.spin{width:64px;height:64px;border-radius:50%;border:8px solid var(--salvia);border-top-color:var(--tomate);margin:0 auto 24px;animation:sp 1s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+.chk{list-style:none;text-align:left;max-width:300px;margin:18px auto 0}
+.chk li{padding:6px 0;color:var(--cinza);font-weight:600;opacity:.3;transition:opacity .3s}
+.chk li.ok{opacity:1;color:var(--oliva)}
+.card{background:#fff;border-radius:18px;padding:18px;margin-top:16px;border:1px solid #eadfcb}
+.tag{display:inline-block;background:var(--mostarda);color:var(--grafite);font-weight:800;font-size:12px;letter-spacing:.5px;border-radius:30px;padding:5px 12px}
+.prof{background:var(--oliva);color:var(--creme);border-radius:18px;padding:20px;margin-top:14px}
+.prof h2{color:var(--creme);margin:8px 0}
+.nums{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
+.num{background:var(--creme);color:var(--oliva);border-radius:14px;padding:12px;text-align:center}
+.num b{display:block;font-family:Fraunces,serif;font-size:24px;white-space:nowrap}
+.num small{font-size:12px;font-weight:600}
+.offer{text-align:center}
+.offer img{width:220px;max-width:70%;margin:6px auto 0;display:block;border-radius:14px}
+ul.list{list-style:none;text-align:left;margin-top:10px}
+ul.list li{padding:8px 0 8px 30px;position:relative;font-size:15px;line-height:1.35;border-bottom:1px dashed #eadfcb}
+ul.list li:before{content:'✓';position:absolute;left:4px;top:7px;color:var(--oliva);font-weight:800}
+.stack{margin-top:12px;font-size:15px}
+.stack div{display:flex;justify-content:space-between;padding:6px 0}
+.stack s{color:var(--cinza)}
+.price{font-family:Fraunces,serif;font-size:56px;color:var(--oliva);line-height:1;margin-top:8px}
+.guar{display:flex;gap:12px;align-items:center;text-align:left;background:var(--salvia);border-radius:14px;padding:14px;margin-top:16px;font-size:14px;line-height:1.4}
+.guar b.s{flex:0 0 54px;height:54px;border-radius:50%;background:var(--mostarda);display:flex;align-items:center;justify-content:center;font-family:Fraunces,serif;font-size:20px}
+details{background:#fff;border-radius:12px;padding:14px;margin-top:8px;border:1px solid #eadfcb}
+summary{font-weight:700;cursor:pointer}
+details p{margin-top:8px;font-size:14px;line-height:1.45;color:var(--cinza)}
+.credit{font-size:11px;color:#9a9f9a;text-align:center;margin-top:28px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="brand"><i></i>Jantar Resolvido</div>
+
+  <!-- INTRO -->
+  <section class="screen on" id="intro">
+    <img class="photo" src="img/q1-cansaco.jpg" alt="Pessoa cansada na cozinha no fim do dia">
+    <h1 class="f">Por que a janta virou um problema na sua casa?</h1>
+    <p class="lead">Responda 6 perguntas rápidas e descubra o seu <b>perfil de jantar</b> e quanto tempo e dinheiro você pode recuperar por semana.</p>
+    <button class="btn" onclick="start()">Começar o teste →</button>
+    <p class="small">Leva menos de 1 minuto · gratuito</p>
+  </section>
+
+  <!-- PERGUNTAS -->
+  <section class="screen" id="quiz">
+    <div class="step" id="stepTxt"></div>
+    <div class="bar"><b id="barFill"></b></div>
+    <img class="photo" id="qImg" src="" alt="">
+    <h2 class="f" id="qTxt"></h2>
+    <div id="opts"></div>
+  </section>
+
+  <!-- CARREGANDO -->
+  <section class="screen" id="loading">
+    <div class="load">
+      <div class="spin"></div>
+      <h2 class="f">Analisando suas respostas…</h2>
+      <ul class="chk" id="chk">
+        <li>Rotina da semana</li><li>O que mais pesa na janta</li><li>Gasto com delivery</li><li>Montando o seu plano</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- RESULTADO + OFERTA -->
+  <section class="screen" id="result">
+    <span class="tag">SEU RESULTADO</span>
+    <div class="prof">
+      <div class="hand" style="color:var(--mostarda);font-size:26px">o seu perfil é</div>
+      <h2 class="f" id="pNome"></h2>
+      <p id="pDesc" style="line-height:1.45;font-size:16px"></p>
+      <div class="nums">
+        <div class="num"><b id="nHoras"></b><small>horas por semana decidindo e cozinhando a janta</small></div>
+        <div class="num"><b id="nReais"></b><small>por mês com delivery e lanche de última hora</small></div>
+      </div>
+      <p style="font-size:12px;opacity:.75;margin-top:10px">Estimativa feita a partir das suas respostas.</p>
+    </div>
+
+    <div class="card">
+      <h2 class="f" style="margin-top:0">O que resolve no seu caso</h2>
+      <p class="lead" id="pSolucao"></p>
+      <img class="photo" src="img/resultado.jpg" alt="Marmitas prontas para a semana" style="margin-top:14px">
+    </div>
+
+    <div class="card offer" id="oferta">
+      <span class="tag">SEU PLANO</span>
+      <h2 class="f">Jantar Resolvido</h2>
+      <p class="lead">Cozinhe cerca de 2 horas no domingo e tenha jantar pronto em 15 minutos de segunda a sexta.</p>
+      <img src="img/produto.png" alt="E-book Jantar Resolvido">
+      <ul class="list">
+        <li><b>Método Domingo de 2 Horas</b>: o roteiro marcado no relógio, usando as 4 bocas ao mesmo tempo</li>
+        <li><b>4 cardápios prontos</b> com os 5 jantares da semana e a lista de compras</li>
+        <li><b>30 receitas que congelam bem</b>, com prazo de freezer e como esquentar</li>
+        <li>Bônus: <b>planilha de compras e freezer</b></li>
+        <li>Bônus: <b>etiquetas e mapa do freezer</b> para imprimir</li>
+        <li>Bônus: <b>Plano B</b> com 10 jantares de 15 minutos</li>
+      </ul>
+      <div class="stack">
+        <div><span>Valor somado</span><s>R$ 95</s></div>
+      </div>
+      <div class="small" style="margin-top:4px">Hoje, pagamento único</div>
+      <div class="price">R$ 27</div>
+      <div class="small">Pix ou cartão · acesso imediato · sem mensalidade</div>
+      <a class="btn" id="cta" href="#">Quero meu Jantar Resolvido →</a>
+      <div class="guar"><b class="s">7</b><div><b>Garantia de 7 dias.</b> Faça o seu primeiro domingo. Se não for para você, peça o reembolso e recebe 100% do valor de volta.</div></div>
+    </div>
+
+    <div style="margin-top:18px">
+      <details><summary>Como recebo?</summary><p>Assim que o pagamento é aprovado, você recebe por e-mail o acesso à área de membros com todos os materiais.</p></details>
+      <details><summary>Preciso de freezer grande?</summary><p>Não. O freezer de cima de uma geladeira comum comporta uma semana do método.</p></details>
+      <details><summary>E se eu não tiver 2 horas no domingo?</summary><p>Faça só as bases: já resolve 3 jantares. E o Plano B cobre as semanas corridas.</p></details>
+      <details><summary>Comida congelada não perde o gosto?</summary><p>Perde quando é congelada do jeito errado. O e-book mostra o que congela bem, o que não congela e como esquentar cada prato.</p></details>
+      <details><summary>É assinatura?</summary><p>Não. Você paga R$ 27 uma vez e o acesso é seu.</p></details>
+    </div>
+    <a class="btn" href="#" onclick="document.getElementById('cta').click();return false">Quero resolver meus jantares →</a>
+    <p class="credit">Fotos: Unsplash. Este teste é uma ferramenta de orientação e não substitui acompanhamento nutricional.</p>
+  </section>
+</div>
+
+<script>
+var CHECKOUT = 'https://pay.cakto.com.br/jamzxsr_1330805';
+var Q = [
+ {img:'q1-cansaco.jpg', t:'A que horas você costuma chegar em casa nos dias de semana?', o:[
+  ['🌤️','Antes das 17h',{b:1}],['🌆','Entre 17h e 19h',{a:1,b:1}],['🌙','Depois das 19h',{a:3}],['🏠','Fico em casa, mas o dia é corrido',{b:2}]]},
+ {img:'q2-geladeira.jpg', t:'O que mais pesa na hora da janta?', o:[
+  ['🤯','Decidir o que fazer',{b:3}],['😮‍💨','Cozinhar do zero, cansada(o)',{a:3}],['🧽','A louça que vem depois',{a:1,b:1}],['🛒','Nunca ter os ingredientes certos',{b:2,c:1}]]},
+ {img:'q3-delivery.jpg', t:'Quantas vezes por semana a janta vira delivery, lanche ou miojo?', o:[
+  ['🙂','Quase nunca',{b:1},0],['🍕','1 ou 2 vezes',{c:1},1.5],['📱','3 ou 4 vezes',{c:3},3.5],['😅','Perdi as contas',{c:4},5]]},
+ {img:'q4-familia.jpg', t:'Quantas pessoas jantam na sua casa?', o:[
+  ['👤','Só eu',{},1],['👥','2 pessoas',{},2],['👨‍👩‍👧','3 ou 4',{},3.5],['👨‍👩‍👧‍👦','5 ou mais',{},5]]},
+ {img:'q5-freezer.jpg', t:'Como está o seu freezer hoje?', o:[
+  ['🧊','Só gelo e coisas esquecidas',{b:1}],['🍗','Carne crua congelada',{a:1}],['🥡','Algumas sobras sem etiqueta',{b:1}],['✅','Já congelo comida pronta às vezes',{a:1}]]},
+ {img:'q6-domingo.jpg', t:'Quanto tempo você conseguiria separar no domingo?', o:[
+  ['⏱️','Umas 2 horas',{}],['⌛','1 hora, no máximo',{}],['📅','Depende da semana',{}],['🍳','Uma tarde inteira',{}]]}
+];
+var PERFIS = {
+ a:{n:'Cansaço do fim do dia', d:'Você até sabe cozinhar, mas chega sem energia. Começar uma janta do zero às 19h é pedir demais de qualquer pessoa.',
+    s:'Tirar o trabalho pesado da noite. No domingo você adianta as bases e os pratos de forno; durante a semana só esquenta. A janta fica pronta em 15 minutos, mesmo nos dias mais longos.'},
+ b:{n:'Cansaço da decisão', d:'O que mais cansa não é cozinhar, é decidir todo dia o que fazer, conferir o que tem e improvisar com o que sobrou.',
+    s:'Ter a semana decidida antes de ela começar. Cardápio pronto, lista de compras fechada e um roteiro de domingo marcado no relógio. Na semana, você só segue.'},
+ c:{n:'Delivery no automático', d:'Quando a energia acaba, o celular resolve. Só que isso pesa no bolso e quase nunca é a comida que você queria comer.',
+    s:'Deixar o jantar mais fácil que o delivery. Se a comida caseira já está no freezer e esquenta em 15 minutos, pedir deixa de ser a saída mais rápida.'}
+};
+var i=0, sc={a:0,b:0,c:0}, deliv=1.5, pessoas=2, qs=location.search||'';
+function track(ev,data,custom){try{custom?fbq('trackCustom',ev,data||{}):fbq('track',ev,data||{})}catch(e){}}
+function show(id){document.querySelectorAll('.screen').forEach(function(s){s.classList.remove('on')});document.getElementById(id).classList.add('on');window.scrollTo(0,0)}
+function start(){track('QuizStart',{},true);show('quiz');render()}
+function render(){
+ var q=Q[i];document.getElementById('stepTxt').textContent='Pergunta '+(i+1)+' de '+Q.length;
+ document.getElementById('barFill').style.width=((i)/Q.length*100)+'%';
+ var im=document.getElementById('qImg');im.src='img/'+q.img;im.alt=q.t;
+ document.getElementById('qTxt').textContent=q.t;
+ var box=document.getElementById('opts');box.innerHTML='';
+ q.o.forEach(function(o){var b=document.createElement('button');b.className='opt';b.innerHTML='<span class="e">'+o[0]+'</span>'+o[1];
+  b.onclick=function(){b.classList.add('sel');pick(o)};box.appendChild(b)});
+ if(Q[i+1]){var pre=new Image();pre.src='img/'+Q[i+1].img}
+}
+function pick(o){
+ for(var k in o[2])sc[k]+=o[2][k];
+ if(i===2)deliv=o[3]; if(i===3)pessoas=o[3];
+ track('QuizAnswer',{question:i+1,answer:o[1]},true);
+ setTimeout(function(){i++; if(i<Q.length)render(); else finish()},220);
+}
+function finish(){
+ document.getElementById('barFill').style.width='100%';
+ track('Lead',{content_name:'Quiz Jantar Resolvido'});
+ show('loading');var li=document.querySelectorAll('#chk li');
+ li.forEach(function(l,k){setTimeout(function(){l.classList.add('ok')},500*(k+1))});
+ setTimeout(result,2600);
+}
+function result(){
+ var p='b';if(sc.a>sc[p])p='a';if(sc.c>sc[p])p='c';
+ var P=PERFIS[p];
+ document.getElementById('pNome').textContent=P.n;
+ document.getElementById('pDesc').textContent=P.d;
+ document.getElementById('pSolucao').textContent=P.s;
+ var horas=Math.round(5*(0.75+0.15*pessoas));
+ var reais=Math.round(deliv*4.3*12*Math.max(pessoas,1)/10)*10;
+ document.getElementById('nHoras').textContent='~'+horas+'h';
+ document.getElementById('nReais').textContent=reais>0?'~R$ '+reais:'R$ 0';
+ var sep=CHECKOUT.indexOf('?')>-1?'&':'?';
+ var url=CHECKOUT+(qs?sep+qs.replace(/^\?/,''):'');
+ document.getElementById('cta').href=url;
+ document.getElementById('cta').onclick=function(){track('ClickCheckout',{perfil:P.n},true)};
+ track('ViewContent',{content_name:'Jantar Resolvido',content_type:'product',value:27,currency:'BRL'});
+ show('result');
+}
+</script>
+</body>
+</html>
